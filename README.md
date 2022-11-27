@@ -1,12 +1,11 @@
 # A React and Cloud Based Social Network Web Application
 
-Built location, altitude, and duration-based selectors to refine the satellite search.
+Designed and implemented features for users to create and browse posts; features also support the searching of the posts via keywords and users.
 
 
 
 ## Description
 
-* Designed and implemented features for users to create and browse posts; features also support the searching of the posts via keywords and users.
 * Utilized React Router package to realize the redirecting and switching between various functionalities, such as “home”, “log-in”,  register”, etc.
 * Adopted Axios to execute HTTP Requests, e.g., handling requests and responses for image/video uploading. 
 * Adopted react-grid-gallery to realize the image selection and enlargement function for detail highlighting. 
