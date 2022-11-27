@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# A React and Cloud Based Social Network Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Built location, altitude, and duration-based selectors to refine the satellite search.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Designed and implemented features for users to create and browse posts; features also support the searching of the posts via keywords and users.
+* Utilized React Router package to realize the redirecting and switching between various functionalities, such as “home”, “log-in”,  register”, etc.
+* Adopted Axios to execute HTTP Requests, e.g., handling requests and responses for image/video uploading. 
+* Adopted react-grid-gallery to realize the image selection and enlargement function for detail highlighting. 
+* Improved the authentication using JWT token-based registration/login/logout flow with React Router v4.
+* Launched a scalable web service in Go to handle posts; deployed the application to Google Cloud (Google App Engine).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## About the Backend
+The backend of the Around application has been deployed to the Google App Engine (GAE). Please check out the [around-backend](https://github.com/shuyushang/around-backend.git) for more details!
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Clone/Pull the Repo
 
-### `npm run eject`
+```
+git clone -b master https://github.com/shuyushang/around-frontend.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Install npm
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Navigate to the cloned repo, and install npm,
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+cd around-frontend
+npm install
+```
 
-## Learn More
+You only need to do this once.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Run the Around Web Application
 
-### Code Splitting
+Once npm is installed, launch the web application,
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+npm start
+```
+Open [http://localhost:3000](http://localhost:3000) to view the Around to post your favourite Pictures and Videos if the browser does not launch automatically!
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Hands-on
 
-### Making a Progressive Web App
+Register your account and log in to post your moments!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## More about the React App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Create React App](https://github.com/facebook/create-react-app)
